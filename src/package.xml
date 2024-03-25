@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>sso_GoogleAuthHandler</members>
+        <members>sso_GoogleAuthHandlerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>google</members>
+        <name>AuthProvider</name>
+    </types>
+    <version>60.0</version>
+</Package>
