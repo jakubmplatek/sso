@@ -6,7 +6,7 @@
     <isPkceEnabled>false</isPkceEnabled>
     <logoutUrl>https://test.salesforce.com</logoutUrl>
     <providerType>Google</providerType>
-    <registrationHandler>sso_GoogleAuthHandler</registrationHandler>
+    <registrationHandler>GoogleAuthHandler</registrationHandler>
     <requireMfa>false</requireMfa>
     <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
     <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
