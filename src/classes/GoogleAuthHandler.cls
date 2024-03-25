@@ -1,4 +1,4 @@
-global class sso_GoogleAuthHandler implements Auth.RegistrationHandler{
+global class GoogleAuthHandler implements Auth.RegistrationHandler{
     private User foundUser = null;  
     global boolean canCreateUser(Auth.UserData data) {
         List<User> lstUser = [SELECT Id, Username, FederationIdentifier, IsActive FROM User WHERE FederationIdentifier = :data.email];
